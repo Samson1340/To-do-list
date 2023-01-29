@@ -1,0 +1,113 @@
+
+    $bs-main-bg: #62d1e2;
+    $bs-main-list-bg: #b0e3eb;
+    $bs-main-yellow: #d3f159;
+    $bs-main-light-green: #50edb9;
+    $bs-main-black: #1b0a0a;
+    $bs-main-white: #faf7f7;
+
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 50%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: $bs-main-bg;
+    text-align: center;
+    // padding-top: 1px;
+    h1{
+        font-size: 5em;
+        color: $bs-main-white;
+    }
+    p{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    P:nth-of-type(1){
+        color: $bs-main-yellow;
+    }
+    P:nth-of-type(2){
+        color: $bs-main-light-green;
+    }
+    P:nth-of-type(3){
+        color: $bs-main-black;
+    }
+    form{
+        width: 60vw;
+        height: 70px;
+        margin: 10px auto;
+        padding-top: 30px;
+        input{
+            width: 90%;
+            height: 55px;
+            border-radius: 5px;
+            font-size: 2em;
+            border: none;
+        }
+        button{
+            width: 55px;
+            height: 55px;
+            border-radius: 5px;
+            border: 1px solid $bs-main-white;
+            cursor: pointer;
+            // font-size: 2.4em;
+        }
+        .error-msg{
+            display: block;
+            width: 100%;
+            height: 20px;
+            padding: 3px 0 0 20px;
+            text-align: left;
+        }
+        .error{
+            color: red;
+        }
+        .error1{
+            border: 2px solid red;
+        }
+        .success{
+            border: 2px solid green;
+        }
+    }
+    .list-items{
+        width: 55vw;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 60px;
+        .list-single-item{
+            width: 100%;
+            height: 60px;
+            background-color: $bs-main-list-bg;
+            border: 2px solid $bs-main-black;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 10px;
+            margin-top: 20px;
+            p{
+                color: $bs-main-black;
+                font-size: 2.3rem;
+                padding-left: 20px-;
+            }
+            .close{
+                font-size: 2.4em;
+                padding-right: 15px;
+                cursor: pointer;
+            }
+            .close:hover{
+               transform: scale(1.05, 1.05);
+               transition: .2s ease-in-out;
+               color: red;
+            }
+
+
+        
+    }
+}
+}

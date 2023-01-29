@@ -1,0 +1,100 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 50%;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #62d1e2;
+  text-align: center;
+}
+main h1 {
+  font-size: 5em;
+  color: #faf7f7;
+}
+main p {
+  font-size: 2em;
+  font-weight: bold;
+}
+main P:nth-of-type(1) {
+  color: #d3f159;
+}
+main P:nth-of-type(2) {
+  color: #50edb9;
+}
+main P:nth-of-type(3) {
+  color: #1b0a0a;
+}
+main form {
+  width: 60vw;
+  height: 70px;
+  margin: 10px auto;
+  padding-top: 30px;
+}
+main form input {
+  width: 90%;
+  height: 55px;
+  border-radius: 5px;
+  font-size: 2em;
+  border: none;
+}
+main form button {
+  width: 55px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #faf7f7;
+  cursor: pointer;
+}
+main form .error-msg {
+  display: block;
+  width: 100%;
+  height: 20px;
+  padding: 3px 0 0 20px;
+  text-align: left;
+}
+main form .error {
+  color: red;
+}
+main form .error1 {
+  border: 2px solid red;
+}
+main form .success {
+  border: 2px solid green;
+}
+main .list-items {
+  width: 55vw;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+main .list-items .list-single-item {
+  width: 100%;
+  height: 60px;
+  background-color: #b0e3eb;
+  border: 2px solid #1b0a0a;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+main .list-items .list-single-item p {
+  color: #1b0a0a;
+  font-size: 2.3rem;
+  padding-left: 20px-;
+}
+main .list-items .list-single-item .close {
+  font-size: 2.4em;
+  padding-right: 15px;
+  cursor: pointer;
+}
+main .list-items .list-single-item .close:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.2s ease-in-out;
+  color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -13,7 +13,7 @@ main {
   text-align: center;
 }
 main h1 {
-  font-size: 5em;
+  font-size: 6em;
   color: #faf7f7;
 }
 main p {
@@ -41,6 +41,7 @@ main form input {
   border-radius: 5px;
   font-size: 2em;
   border: none;
+  padding-left: 15px;
 }
 main form button {
   width: 55px;
@@ -53,8 +54,9 @@ main form .error-msg {
   display: block;
   width: 100%;
   height: 20px;
-  padding: 3px 0 0 20px;
+  padding: 3px 0 0 35px;
   text-align: left;
+  font-size: 2em;
 }
 main form .error {
   color: red;
@@ -86,11 +88,11 @@ main .list-items .list-single-item {
 main .list-items .list-single-item p {
   color: #1b0a0a;
   font-size: 2.3rem;
-  padding-left: 20px-;
+  padding-left: 18px;
 }
 main .list-items .list-single-item .close {
   font-size: 2.4em;
-  padding-right: 15px;
+  padding-right: 18px;
   cursor: pointer;
 }
 main .list-items .list-single-item .close:hover {
